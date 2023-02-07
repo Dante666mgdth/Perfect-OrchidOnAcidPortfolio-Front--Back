@@ -1,0 +1,33 @@
+.dropdown_container ul {
+  list-style-type: none;
+  background-color: #f34573;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 12px;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 12px 20px;
+}
+
+.dropdown_container ul li {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown_container ul li:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.dropdown_container ul li:not(:first-child) {
+  margin-top: 8px;
+}
+
+a{
+  color: beige !important;
+}
+
+
